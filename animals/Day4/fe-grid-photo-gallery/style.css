@@ -1,0 +1,67 @@
+/* IGNORE THIS! This is just setup for different browsers */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*End the ignore section*/
+/* Default to a sans-serif font */
+html {
+    font-family: sans-serif;
+}
+/*body {*/
+/*    margin: 0;*/
+/*    display: grid;*/
+/*    height:100vh;*/
+/*    grid-template-columns:1fr 1fr 1fr 1fr;*/
+/*    grid-template-rows:75px auto auto;*/
+/*}*/
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    
+    display: grid;
+    height:100vh;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:75px auto auto auto;
+    
+}
+
+#head {
+    grid-column-start: 1 ;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#firstrow{
+    grid-column-start: 1 ;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+}
+#secondrow{
+    grid-column-start: 1 ;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+}
+#thirdrow{
+    grid-column-start: 1 ;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+}

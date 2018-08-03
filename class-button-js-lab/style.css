@@ -1,0 +1,35 @@
+* {
+    font-family: helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: darkslategray;
+    text-align: center;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 180px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    grid-gap: 20px;
+    transition-duration: 0.25s;
+}
+
+#target {
+    grid-column: 2 / -2;
+    border: solid darkslategray 3px;
+    padding-top: 60px;
+}
+
+.button {
+    grid-row: 2/3;
+    padding: 30px 15px;
+    transition-duration: 0.25s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: darkslategrey;
+    color: white;
+}

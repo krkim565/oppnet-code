@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    display:grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px auto auto;
+    background-color: crimson;
+}
+#wrapper{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    /*background-color: pink;*/
+    margin: 0 20%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.product{
+    background-color: pink;
+}

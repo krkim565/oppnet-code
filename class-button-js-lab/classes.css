@@ -1,0 +1,19 @@
+.pop {
+    box-shadow: 5px 5px 5px teal;
+}
+
+.big {
+    font-size: 1.8rem;
+}
+
+.fancy {
+    font-family: "Italianno", cursive;
+    font-size: 2.5em;
+}
+
+.negative {
+    /* This class hasn't been defined yet - You get to do it!
+    The negative class should switch the background color from light to dark
+    and the text color from dark to light. */
+    
+}
